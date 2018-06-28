@@ -7,7 +7,7 @@ import random
 
 # TODO: Write a print statement that displays both the type and value of `pi`
 pi = math.pi
-print(pi)
+print("type : {}, value of pi : {}".format(type(pi), pi))
 
 # TODO: Write a conditional to print out if `i` is less than or greater than 50
 i = random.randint(0, 100)
